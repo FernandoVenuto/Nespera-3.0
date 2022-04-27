@@ -22,13 +22,13 @@
                         <div class="col-3 justify-content-md-center">
                         </div>
                         <div class="col-6 justify-content-md-center mt-3">
-                            <h3 style="color: white;">Redefinir Senha</h3>
+                            <h3 style="color: white;"></h3>
                             <div class="justify-content-lg-center">
                                 <form action="">
                                     <div class="row g-0">
-                                        <input class="col-8 login" type="email" placeholder="Informe o Email" name="email" required>
-                                        <div class="col-3 align-middle mt-2" style="display: inline;">
-                                            <button id="logar2"><span>Enviar </span></button>
+                                        <div class="col-12 align-middle mt-2" style="display: inline;">
+                                        <p style="color: white;">Você receberá um e-mail em breve.<br>
+                                            Siga as instruções para gerar uma nova senha.</p>
                                         </div>
                                     </div>
                                 </form>

@@ -22,16 +22,11 @@
                         <div class="col-3 justify-content-md-center">
                         </div>
                         <div class="col-6 justify-content-md-center mt-3">
-                            <h3 style="color: white;">Redefinir Senha</h3>
+                            <h5 style="color: white; font-weight:normal">Senha cadastrada com sucesso.</h5>
                             <div class="justify-content-lg-center">
-                                <form action="">
-                                    <div class="row g-0">
-                                        <input class="col-8 login" type="email" placeholder="Informe o Email" name="email" required>
-                                        <div class="col-3 align-middle mt-2" style="display: inline;">
-                                            <button id="logar2"><span>Enviar </span></button>
+                                    <div class="col-3 align-middle mt-2" style="display: inline;">
+                                            <a href="login.php"><button id="logar"><span>Logar </span></button></a>
                                         </div>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                         <div class="col-3 justify-content-md-center">
