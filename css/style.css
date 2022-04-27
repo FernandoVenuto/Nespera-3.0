@@ -29,6 +29,10 @@ a:hover{
     text-decoration: underline;
 }
 
+input{
+    outline: none;
+}
+
 /*Login Page*/
 
 .box{
@@ -86,6 +90,45 @@ button#logar:hover span{
 
 
   button#logar:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /*Recover Password*/
+
+  button#logar2{
+    background-color: #0B3ED9;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    border-radius: 8px;
+    width: 100px;
+}
+
+button#logar2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  button#logar2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+button#logar2:hover span{
+    padding-right: 25px;
+}
+
+
+  button#logar2:hover span:after {
     opacity: 1;
     right: 0;
   }
