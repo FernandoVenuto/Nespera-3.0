@@ -54,6 +54,7 @@ div.text{
     color: white;
 }
 
+
 button#logar{
     background-color: #0B3ED9;
     color: white;
@@ -63,3 +64,28 @@ button#logar{
     width: 100px;
 }
 
+button#logar span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  button#logar span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+button#logar:hover span{
+    padding-right: 25px;
+}
+
+
+  button#logar:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

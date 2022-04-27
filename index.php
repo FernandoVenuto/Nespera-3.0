@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Nespera-Login</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                             <div class="justify-content-lg-center">
                                 <form action="">
                                     <input class="col-12 login" type="text" placeholder="Usuário" name="usuario" required >
-                                    <input class="col-12 login" type="text" placeholder="Senha" name="senha" required >
+                                    <input class="col-12 login" type="password" placeholder="Senha" name="senha" required >
                                 </form>
                             </div>
                         </div>
@@ -38,7 +38,7 @@
                         </p>
                     </div>
                     <div>
-                        <button id="logar">Logar</button>
+                        <button id="logar"><span>Login </span></button>
                     </div>
                 </div>
             </div>
