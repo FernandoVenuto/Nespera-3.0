@@ -19,9 +19,9 @@
                         <a href="login.php"><img class="logo-dmie" src="imagens/data_mining_pb_nome_1400_1000.png" alt=""></a>
                     </div>
                     <div class="row g-0">
-                        <div class="col-3 justify-content-md-center">
+                        <div class="col-2 justify-content-md-center">
                         </div>
-                        <div class="col-6 justify-content-md-center mt-3">
+                        <div class="col-8 justify-content-md-center mt-3">
                             <h3 style="color: white;">Redefinir Senha</h3>
                             <div class="justify-content-lg-center">
                                 <form action="">
@@ -34,7 +34,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="col-3 justify-content-md-center">
+                        <div class="col-2 justify-content-md-center">
                         </div>
                     </div>
                 </div>
