@@ -10,7 +10,7 @@
     <title>Nespera-Login</title>
 </head>
 
-<body>
+<body class="login">
     <main class="chome">
         <div class="container">
             <div class="row g-0 d-flex justify-content-md-center align-items-center vh-100">
