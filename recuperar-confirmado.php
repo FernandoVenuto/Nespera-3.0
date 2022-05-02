@@ -22,7 +22,7 @@
                         <div class="col-3 justify-content-md-center">
                         </div>
                         <div class="col-6 justify-content-md-center mt-3">
-                            <h5 style="color: white; font-weight:normal; font-size:18px">Senha cadastrada com sucesso. <img src="imagens/check-circle-regular.svg" alt="" style="width: 20px;"></h5>
+                            <h5 style="color: white; font-weight:normal; font-size:18px">Senha cadastrada com sucesso. <img src="imagens/check-circle-regular.webp" alt="" style="width: 20px;"></h5>
                             <div class="justify-content-lg-center">
                                 <div class="col-3 align-middle mt-2" style="display: inline;">
                                     <a href="login.php"><button id="logar"><span>Logar </span></button></a>
