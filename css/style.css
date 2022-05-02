@@ -2,6 +2,7 @@
 
 html {
   overflow-x: hidden;
+  overflow-y:hidden;
   max-width: 100vw;
 }
 
@@ -215,10 +216,54 @@ img.dashboard{
   background-color: #ffffff!important;
 }
 
+.dashboard-box2{
+  background-color: #ffffff!important;
+  height: 100px;
+  color: #aea9a9;
+  text-align: center;
+}
+
+.dashboard-box3{
+  background-color: #ffffff!important;
+  height: 100px;
+  color: #aea9a9;
+  text-align: left;
+}
+
+.dashboard-box4{
+  background-color: #ffffff!important;
+  height: 350px;
+  color: #aea9a9;
+  text-align: left;
+}
+
+.dashboard3 h6{
+  font-size: 15px!important;
+  padding: 20px 0px;
+  text-align: center;
+  font-weight: normal;
+  margin: 8px 0px;
+  color: #495172;
+}
+
+
 .nav-mobile{
   font-size: 14px;
 }
 
+.dashboard h4{
+  font-size: 12px;
+  margin: 0px;
+}
+
+
+.pg-box{
+  width: 100%;
+}
+
+.clients-box{
+  background-color: #493131;
+}
 
 
 /*Medias*/
