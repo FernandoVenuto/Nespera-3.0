@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container-fluid dashboard">
+    <div class="container-fluid dashboard h100">
         <div class="row dashboard-dashboard">
             <div class="col-sm-2 col-md-2 col-lg-2 col-xxl-2 pt-4 dashboard-menu-bg dashboard text-center dashboard-shadow">
                 <img src="imagens/userwhite.png" alt="" class="dashboard">
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="row dashboard">
-            <nav class="pt-3 d-none d-md-block col-md-2 col-lg-2 col- col-xxl-2 dashboard-menu-bg sidebar dashboard" style="height: 79vh">
+            <nav class="pt-3 d-none d-md-block col-md-2 col-lg-2 col-xxl-2 dashboard-menu-bg sidebar dashboard">
                 <div class="sidebar-sticky dashboard">
                     <ul class="nav flex-column dashboard">
                         <li class="nav-item dashboard">
@@ -60,7 +60,7 @@
                 </div>
             </nav>
             <!--right-->
-            <div class="dashboard  col-md-10 col-lg-10 col-xxl-10 dashboard-bg2">
+            <div class="dashboard  col-md-10 col-lg-10 col-xxl-10 dashboard-bg2 h-100">
                 <!--Box 1-->
                 <div class="container dashboard-box mt-3">
                     <div class=" row dashboard">
@@ -145,14 +145,14 @@
                     </div>
                 </div>
                 <!--Box 4-->
-                <div class="container dashboard-box4 mt-3">
+                <div class="container dashboard-box4 mt-3 h-100">
                     <div class=" row dashboard4 pt-3">
                         <div class="col-3 d-inline-block">
                             <div class="pG-box col-12">
                                 <div style="background-color: #881798; color:#881798;">
                                     P&G - Neurobion
                                 </div>
-                                <div style="background-color: #f6f6f6; height:100%">
+                                <div style="background-color: #f6f6f6; ">
                                     P&G -NEUROBION
                                     <p style="padding: 0px 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit adipisci, quia molestiae optio, excepturi, eos assumenda aperiam ducimus at magni voluptate voluptatibus nesciunt eius exercitationem fuga a debitis? Inventore, modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam, voluptatem asperiores alias quas cum dicta itaque reprehenderit ipsum eius amet</p>
                                 </div>
@@ -163,7 +163,7 @@
                                 <div style="background-color: #4f6bed; color:#4f6bed;">
                                     P&G - CONTROLE
                                 </div>
-                                <div style="background-color: #f6f6f6; height:100%">P&G - CONTROLE
+                                <div style="background-color: #f6f6f6; ">P&G - CONTROLE
                                     <p style="padding: 0px 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit adipisci, quia molestiae optio, excepturi, eos assumenda aperiam ducimus at magni voluptate voluptatibus nesciunt eius exercitationem fuga a debitis? Inventore, modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam, voluptatem asperiores alias quas cum dicta itaque reprehenderit ipsum eius amet</p>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@
                                 <div style="background-color: #69797e; color:#69797e;">
                                     TAKEDA
                                 </div>
-                                <div style="background-color: #f6f6f6; height:100%">TAKEDA
+                                <div style="background-color: #f6f6f6; ">TAKEDA
                                     <p style="padding: 0px 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit adipisci, quia molestiae optio, excepturi, eos assumenda aperiam ducimus at magni voluptate voluptatibus nesciunt eius exercitationem fuga a debitis? Inventore, modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam, voluptatem asperiores alias quas cum dicta itaque reprehenderit ipsum eius amet</p>
                                 </div>
                             </div>
@@ -183,7 +183,7 @@
                                 <div style="background-color: #498205; color:#498205;">
                                     CLUBE NAOS
                                 </div>
-                                <div style="background-color: #f6f6f6; height:100%">CLUBE NAOS
+                                <div style="background-color: #f6f6f6; ">CLUBE NAOS
                                     <p style="padding: 0px 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit adipisci, quia molestiae optio, excepturi, eos assumenda aperiam ducimus at magni voluptate voluptatibus nesciunt eius exercitationem fuga a debitis? Inventore, modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam, voluptatem asperiores alias quas cum dicta itaque reprehenderit ipsum eius amet unde </p>
                                 </div>
                             </div>
