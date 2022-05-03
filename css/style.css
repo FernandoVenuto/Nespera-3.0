@@ -176,6 +176,28 @@ button#logar3:hover span:after {
 
 /*Dashboard*/
 
+.accordion {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+}
+
+.accordion:active{
+  background-color: white;
+}
+
+
+
+.panel {
+  margin: 5px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
 
 img.dashboard{
   width: 100px;

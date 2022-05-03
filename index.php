@@ -19,10 +19,10 @@
             </div>
             <div class="h-25  col-sm-10 col-md-10 col-lg-10 col-xxl-10 dashboard-bg">
                 <div class="row">
-                    <div class="col-10 pt-4">
+                    <div class="col-9 col-md-10 pt-4">
                         <h1 style="color: #707070;" class="my-0">Dashboard</h1>
                     </div>
-                    <div class="col-2 pt-2">
+                    <div class="col-3 col-md-2 pt-2">
                         <img src="imagens/dmie.png" alt="" style="width: 100%;max-width:150px;">
                     </div>
                 </div>
@@ -33,22 +33,82 @@
                 <div class="sidebar-sticky dashboard">
                     <ul class="nav flex-column dashboard">
                         <li class="nav-item dashboard">
-                            <a class="nav-link active dashboard" href="#">
-                                <img src="imagens/nav-service.webp" width="24" height="24">
-                                <span class="nav-mobile">Serviços</span>
-                            </a>
+                            <span class="nav-link active dashboard">
+                                <div style="text-align: left;" class="accordion">
+                                    <button type="button" style="background-color:transparent; text-align:left; border:none; color:white; font-weight:bold;" class=" w-100 text-left">
+                                        <img src="imagens/nav-service.webp" width="24" height="24">
+                                        <span class="nav-mobile">Serviços</span>
+                                    </button>
+                                </div>
+                                <div class="panel">
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <a href="" style="color: black;">E-mail</a>
+                                        </li>
+                                        <li>
+                                            <a href="" style="color: black;">WhatsApp</a>
+                                        </li>
+                                        <li>
+                                            <a href="" style="color: black;">Visual Aid</a>
+                                        </li>
+                                        <li>
+                                            <a href="" style="color: black;">Landing Page</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </span>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <img src="imagens/nav-consult.webp" width="24" height="24">
-                                <span class="nav-mobile">Consulta</span>
-                            </a>
+                        <li class="nav-item dashboard">
+                            <span class="nav-link active dashboard">
+                                <div style="text-align: left;" class="accordion">
+                                    <button type="button" style="background-color:transparent; text-align:left; border:none; color:white; font-weight:bold;" class=" w-100 text-left">
+                                        <img src="imagens/nav-consult.webp" width="24" height="24">
+                                        <span class="nav-mobile">Consulta</span>
+                                    </button>
+                                </div>
+                                <div class="panel">
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <a href="" style="color: black;">E-mail</a>
+                                        </li>
+                                        <li>
+                                            <a href="" style="color: black;">WhatsApp</a>
+                                        </li>
+                                        <li>
+                                            <a href="" style="color: black;">Visual Aid</a>
+                                        </li>
+                                        <li>
+                                            <a href="" style="color: black;">Landing Page</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </span>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <img src="imagens/nav-config.webp" width="24" height="24">
-                                <span class="nav-mobile">Configuração</span>
-                            </a>
+                        <li class="nav-item dashboard">
+                            <span class="nav-link active dashboard">
+                                <div style="text-align: left;" class="accordion">
+                                    <button type="button" style="background-color:transparent; text-align:left; border:none; color:white; font-weight:bold;" class=" w-100 text-left">
+                                        <img src="imagens/nav-config.webp" width="24" height="24">
+                                        <span class="nav-mobile">Configuração</span>
+                                    </button>
+                                </div>
+                                <div class="panel">
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <a href="" style="color: black;">E-mail</a>
+                                        </li>
+                                        <li>
+                                            <a href="" style="color: black;">WhatsApp</a>
+                                        </li>
+                                        <li>
+                                            <a href="" style="color: black;">Visual Aid</a>
+                                        </li>
+                                        <li>
+                                            <a href="" style="color: black;">Landing Page</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </span>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
@@ -212,5 +272,27 @@
         </div>
     </div>
 </body>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.esm.js"></script>
+<script src="js/bootstrap.esm.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </html>
