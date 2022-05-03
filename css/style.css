@@ -207,8 +207,11 @@ img.dashboard{
   font-size: 15px!important;
   padding: 20px 0px;
   margin: 8px 0px;
-  border-right: 1px solid #c5c9d7;
   color: #8990ad;
+}
+
+h3.border-h3{
+  border-right: 1px solid #c5c9d7;
 }
 
 .dashboard-box{
@@ -241,7 +244,7 @@ img.dashboard{
   padding: 20px 0px;
   text-align: center;
   font-weight: normal;
-  margin: 8px 0px;
+  margin: 0px 8px;
   color: #495172;
 }
 
@@ -348,6 +351,10 @@ img.dashboard{
   .dashboard-bg2{
     margin-top: 0px!important;
 }
+
+  h3.border-h3{
+    border-right: none !important;
+  }
 }
 
 @media (max-width: 575px) {}

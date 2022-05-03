@@ -64,82 +64,100 @@
                 <!--Box 1-->
                 <div class="container dashboard-box mt-3">
                     <div class=" row dashboard">
-                        <div class="col-3 d-inline-block">
-                            <h3>Visual Aid</h3>
+                        <div class="col-sm-3 col-6 d-inline-block">
+                            <h3 class="border-h3">Visual Aid</h3>
                         </div>
-                        <div class="col-3 d-inline-block">
-                            <h3>Landing Page</h3>
+                        <div class="col-sm-3 col-6 d-inline-block">
+                            <h3 class="border-h3">Landing Page</h3>
                         </div>
-                        <div class="col-3 d-inline-block">
-                            <h3>Email</h3>
+                        <div class="col-sm-3 col-6 d-inline-block">
+                            <h3 class="border-h3">Email</h3>
                         </div>
-                        <div class="col-3 d-inline-block">
+                        <div class="col-sm-3 col-6 d-inline-block">
                             <h3>WhatsApp</h3>
                         </div>
                     </div>
                 </div>
                 <!--Box 2-->
-                <div class="container dashboard-box2 mt-3 d-flex">
+                <div class="container dashboard-box2 mt-3 d-flex h-100">
                     <div class="col-12 row dashboard align-items-end">
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Janeiro</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Fevereiro</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Março</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Abril</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Maio</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Junho</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Julho</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Agosto</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Setembro</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Outubro</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Novembro</h4>
                         </div>
-                        <div class="col-1">
+                        <div class="col-6 col-md-1 p-1">
+                            Aqui vão os graficos
                             <h4>Dezembro</h4>
                         </div>
                     </div>
                 </div>
                 <!--Box 3-->
-                <div class="container dashboard-box3 mt-3">
+                <div class="container dashboard-box3 mt-3 h-100">
                     <div class=" row dashboard3">
-                        <div class="col-2 d-inline-block">
+                        <div class="col-6 col-md-2 d-inline-block text-center">
                             <h6>Brasil</h6>
+                            Aqui vão os numeros
 
                         </div>
-                        <div class="col-2 d-inline-block">
+                        <div class="col-6 col-md-2 d-inline-block text-center">
                             <h6>Chile</h6>
+                            Aqui vão os numeros
                         </div>
-                        <div class="col-2 d-inline-block">
+                        <div class="col-6 col-md-2 d-inline-block text-center">
                             <h6>Colômbia</h6>
+                            Aqui vão os numeros
                         </div>
-                        <div class="col-2 d-inline-block">
+                        <div class="col-6 col-md-2 d-inline-block text-center">
                             <h6>Ecuador</h6>
+                            Aqui vão os numeros
                         </div>
-                        <div class="col-2 d-inline-block">
+                        <div class="col-6 col-md-2 d-inline-block text-center">
                             <h6>Central America</h6>
+                            Aqui vão os numeros
                         </div>
-                        <div class="col-2 d-inline-block">
+                        <div class="col-6 col-md-2 d-inline-block text-center">
                             <h6>Mexico</h6>
+                            Aqui vão os numeros
                         </div>
 
                     </div>
@@ -147,43 +165,43 @@
                 <!--Box 4-->
                 <div class="container dashboard-box4 mt-3 h-100">
                     <div class=" row dashboard4 pt-3">
-                        <div class="col-3 d-inline-block">
+                        <div class="col-6 col-md-3 d-inline-block">
                             <div class="pG-box col-12">
                                 <div style="background-color: #881798; color:#881798;">
-                                    P&G - Neurobion
+                                    <img src="imagens/header-block.PNG" style="max-width: 300px; width:100%">
                                 </div>
-                                <div style="background-color: #f6f6f6; ">
-                                    P&G -NEUROBION
+                                <div style="background-color: #f6f6f6;text-align:center; ">
+                                    P&G - NEUROBION
                                     <p style="padding: 0px 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit adipisci, quia molestiae optio, excepturi, eos assumenda aperiam ducimus at magni voluptate voluptatibus nesciunt eius exercitationem fuga a debitis? Inventore, modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam, voluptatem asperiores alias quas cum dicta itaque reprehenderit ipsum eius amet</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 d-inline-block">
+                        <div class="col-6 col-md-3 d-inline-block">
                             <div class="pg-box2 col-12">
                                 <div style="background-color: #4f6bed; color:#4f6bed;">
-                                    P&G - CONTROLE
+                                    <img src="imagens/header-block2.PNG" style="max-width: 300px; width:100%">
                                 </div>
-                                <div style="background-color: #f6f6f6; ">P&G - CONTROLE
+                                <div style="background-color: #f6f6f6; text-align:center;">P&G - CONTROLE
                                     <p style="padding: 0px 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit adipisci, quia molestiae optio, excepturi, eos assumenda aperiam ducimus at magni voluptate voluptatibus nesciunt eius exercitationem fuga a debitis? Inventore, modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam, voluptatem asperiores alias quas cum dicta itaque reprehenderit ipsum eius amet</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 d-inline-block">
+                        <div class="col-6 col-md-3 d-inline-block">
                             <div class="takeda-box col-12">
                                 <div style="background-color: #69797e; color:#69797e;">
-                                    TAKEDA
+                                    <img src="imagens/header-block3.PNG" style="max-width: 300px; width:100%">
                                 </div>
-                                <div style="background-color: #f6f6f6; ">TAKEDA
+                                <div style="background-color: #f6f6f6;text-align:center;">TAKEDA
                                     <p style="padding: 0px 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit adipisci, quia molestiae optio, excepturi, eos assumenda aperiam ducimus at magni voluptate voluptatibus nesciunt eius exercitationem fuga a debitis? Inventore, modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam, voluptatem asperiores alias quas cum dicta itaque reprehenderit ipsum eius amet</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 d-inline-block">
+                        <div class="col-6 col-md-3 d-inline-block">
                             <div class="clube-naos-box col-12">
                                 <div style="background-color: #498205; color:#498205;">
-                                    CLUBE NAOS
+                                    <img src="imagens/header-block4.PNG" style="max-width: 300px; width:100%">
                                 </div>
-                                <div style="background-color: #f6f6f6; ">CLUBE NAOS
+                                <div style="background-color: #f6f6f6;text-align:center; ">CLUBE NAOS
                                     <p style="padding: 0px 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit adipisci, quia molestiae optio, excepturi, eos assumenda aperiam ducimus at magni voluptate voluptatibus nesciunt eius exercitationem fuga a debitis? Inventore, modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam, voluptatem asperiores alias quas cum dicta itaque reprehenderit ipsum eius amet unde </p>
                                 </div>
                             </div>
