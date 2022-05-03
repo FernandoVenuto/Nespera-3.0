@@ -33,12 +33,12 @@
                 <div class="sidebar-sticky dashboard">
                     <ul class="nav flex-column dashboard">
                         <li class="nav-item dashboard">
-                            <span class="nav-link active dashboard">
-                                <div style="text-align: left;" class="accordion">
-                                    <button type="button" style="background-color:transparent; text-align:left; border:none; color:white; font-weight:bold;" class=" w-100 text-left">
+                            <span class=" active dashboard">
+                                <div style="text-align: left;" class=" nav-link accordion">
+                                    <div class="menu-style w-100 text-left">
                                         <img src="imagens/nav-service.webp" width="24" height="24">
                                         <span class="nav-mobile">Serviços</span>
-                                    </button>
+                                    </div>
                                 </div>
                                 <div class="panel">
                                     <ul style="list-style-type: none;">
@@ -59,12 +59,12 @@
                             </span>
                         </li>
                         <li class="nav-item dashboard">
-                            <span class="nav-link active dashboard">
-                                <div style="text-align: left;" class="accordion">
-                                    <button type="button" style="background-color:transparent; text-align:left; border:none; color:white; font-weight:bold;" class=" w-100 text-left">
+                            <span class=" active dashboard">
+                                <div style="text-align: left;" class="nav-link accordion">
+                                    <div class="menu-style w-100 text-left">
                                         <img src="imagens/nav-consult.webp" width="24" height="24">
                                         <span class="nav-mobile">Consulta</span>
-                                    </button>
+                                    </div>
                                 </div>
                                 <div class="panel">
                                     <ul style="list-style-type: none;">
@@ -85,12 +85,12 @@
                             </span>
                         </li>
                         <li class="nav-item dashboard">
-                            <span class="nav-link active dashboard">
-                                <div style="text-align: left;" class="accordion">
-                                    <button type="button" style="background-color:transparent; text-align:left; border:none; color:white; font-weight:bold;" class=" w-100 text-left">
+                            <span class="active dashboard">
+                                <div style="text-align: left;" class=" nav-link accordion">
+                                    <div class="menu-style w-100 text-left">
                                         <img src="imagens/nav-config.webp" width="24" height="24">
                                         <span class="nav-mobile">Configuração</span>
-                                    </button>
+                                    </div>
                                 </div>
                                 <div class="panel">
                                     <ul style="list-style-type: none;">
