@@ -12,6 +12,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
+  cursor: auto;
   padding: 0;
   height: 100%;
   padding: 0px;
@@ -42,6 +43,10 @@ input{
   background:rgba(255, 255, 255, 0.144)!important;
   border-radius: 20px;
   padding: 30px;
+  max-width: 756px;
+  max-height: 366.66px;
+  height: 100%;
+  width: 100%;
 }
 
 .logo-dmie{
@@ -53,7 +58,7 @@ input.login{
   display: block;
   margin: 10px;
   padding: 8px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 0px;
 }
 
@@ -67,8 +72,9 @@ button#logar{
   color: white;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  border: 0px;
-  width: 100px;
+  border:0px;
+  border-radius: 14px;
+  width: 120px;
 }
 
 button#logar span {
@@ -106,7 +112,7 @@ button#logar2{
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   border: 0px;
-  border-radius: 8px;
+  border-radius: 0px 8px 8px 0px;
   width: 100px;
 }
 
@@ -140,12 +146,13 @@ button#logar2:hover span:after {
 
   button#logar3{
   margin-top: 10px;
-  background-color: rgb(3, 83, 3);
+  background-color: #0B3ED9;
   color: white;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   border: 0px;
-  width: 100px;
+  border-radius: 14px;
+  width: 120px;
 }
 
 button#logar3 span {
@@ -193,7 +200,7 @@ button#logar3:hover span:after {
   background-color: white;
   color: black;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -278,7 +285,7 @@ h3.border-h3{
 
 
 .nav-mobile{
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .dashboard h4{
@@ -295,6 +302,211 @@ h3.border-h3{
   background-color: #493131;
 }
 
+/*Services*/
+td{
+  font-size: 18px;
+  color:#000000 ;
+}
+
+input {
+  border: 1px solid #b2b1b65e;
+  padding: 5px;
+}
+
+select{
+ padding: 7px;
+ border: 1px solid #b2b1b65e;
+}
+
+input::placeholder, select{
+  color:#b2b1b6 ;
+  font-size: 16px!important;
+}
+
+.button-env{
+  margin: 10px 10px 10px 0px;
+  font-size: 16px;
+  background-color: #0b3ed9;
+  color: white;
+  border-radius: 14px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0px;
+  width: 170px;
+}
+
+.button-env span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-env span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-env:hover span{
+  padding-right: 25px;
+}
+
+
+.button-env:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.h-nav{
+  height:850px;
+}
+
+
+/*Consult*/
+.fontAwesome {
+  font-family: Helvetica, 'FontAwesome', sans-serif;
+}
+
+input.ex-number{
+  font-size: 14px;
+  padding: 0px;
+}
+
+.button-env2{
+  margin: 10px 10px 10px 0px;
+  background-color: #0b3ed9;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0px;
+  width: 200px;
+}
+
+.button-env2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-env2 span#edit:after {
+  content: '«';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.button-env2:hover span#edit{
+  padding-left: 25px;
+}
+
+
+.button-env2:hover span#edit:after {
+  opacity: 1;
+  left: 0;
+}
+
+/*Edit-pages*/
+.col-1-img{
+  width: 40px!important;
+}
+
+#width-icon{
+  width:30px;
+  height:30px;
+}
+
+/*Usuers-Page*/
+.button-env3{
+  padding: 3px;
+  margin: 10px 10px 10px 0px;
+  font-size: 16px;
+  background-color: #0b3ed9;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0px;
+  width: 210px;
+}
+
+.button-env3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-env3 span#button-config:after {
+  content: '+';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-env3:hover span#button-config{
+  padding-right: 25px;
+}
+
+
+.button-env3:hover span#button-config:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*User Registration*/
+.img-perfil-user{
+  width: 279px;
+}
+
+.button-env4{
+  padding: 3px;
+  font-size: 16px;
+  margin: 10px 10px 10px 0px;
+  background-color: #0b3ed9;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0px;
+  width: 170px;
+}
+
+.button-env4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-env4 span#salvar:after {
+  content: '✔';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-env4:hover span#salvar{
+  padding-right: 25px;
+}
+
+
+.button-env4:hover span#salvar:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 /*Medias*/
 @media (min-width: 2560px) {}
@@ -305,7 +517,18 @@ h3.border-h3{
 
 @media (max-width: 1680px) {}
 
-@media (max-width: 1440px) {}
+@media (max-width: 1440px) {
+  .img-perfil-user{
+    width: 261px!important;
+  }
+}
+
+@media (min-width: 1400px){
+.container-form{
+    max-width: 1574px;
+}
+}
+
 
 @media (max-width: 1399px) {}
 
@@ -353,7 +576,11 @@ h3.border-h3{
   }
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+  .h-nav{
+    height:981px;
+  }
+}
 
 @media (max-width: 1008px) {
   .dashboard-bg2{
@@ -361,7 +588,11 @@ h3.border-h3{
   }
 }
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+  .h-nav{
+    height:1277px;
+  }
+}
 
 @media (max-width: 977px) {
   .dashboard-bg2{
@@ -373,15 +604,33 @@ h3.border-h3{
   .dashboard-bg2{
     margin-top: -123px!important;
   }
+  .nav-mobile{
+    font-size: 12px!important;
+  }
 }
 
 @media (max-width: 767px) {
+
   .dashboard-bg2{
     margin-top: 0px!important;
 }
 
+.table-button{
+width: 100%;
+text-align: center;
+}
+
   h3.border-h3{
     border-right: none !important;
+  }
+
+  #width-icon{
+    width:30px!important;
+    height:30px!important;
+  }
+
+  .col-1-img{
+    width: 133.3px!important;
   }
 }
 

@@ -14,123 +14,33 @@
     <div class="container-fluid dashboard h100">
         <div class="row dashboard-dashboard">
             <div class="col-sm-2 col-md-2 col-lg-2 col-xxl-2 pt-4 dashboard-menu-bg dashboard text-center dashboard-shadow">
-                <img src="imagens/userwhite.png" alt="" class="dashboard">
-                <p class="dashboard mt-3" style="color: #8990ad;">Andrew Johnstons</p>
+               <?php require_once('includes/side-bar1.php');?>
             </div>
             <div class="h-25  col-sm-10 col-md-10 col-lg-10 col-xxl-10 dashboard-bg">
                 <div class="row">
                     <div class="col-9 col-md-10 pt-4">
                         <h1 style="color: #707070;" class="my-0">Dashboard</h1>
                     </div>
-                    <div class="col-3 col-md-2 pt-2">
+                    <div class="col-3 col-md-2 pt-2" style="text-align:right;">
                         <img src="imagens/dmie.png" alt="" style="width: 100%;max-width:150px;">
                     </div>
                 </div>
             </div>
         </div>
         <div class="row dashboard">
-            <nav class="pt-3 d-none d-md-block col-md-2 col-lg-2 col-xxl-2 dashboard-menu-bg sidebar dashboard">
-                <div class="sidebar-sticky dashboard">
-                    <ul class="nav flex-column dashboard">
-                        <li class="nav-item dashboard">
-                            <span class=" active dashboard">
-                                <div style="text-align: left;" class=" nav-link accordion">
-                                    <div class="menu-style w-100 text-left">
-                                        <img src="imagens/nav-service.webp" width="24" height="24">
-                                        <span class="nav-mobile">Serviços</span>
-                                    </div>
-                                </div>
-                                <div class="panel">
-                                    <ul style="list-style-type: none;">
-                                        <li>
-                                            <a href="" style="color: black;">E-mail</a>
-                                        </li>
-                                        <li>
-                                            <a href="" style="color: black;">WhatsApp</a>
-                                        </li>
-                                        <li>
-                                            <a href="" style="color: black;">Visual Aid</a>
-                                        </li>
-                                        <li>
-                                            <a href="" style="color: black;">Landing Page</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </span>
-                        </li>
-                        <li class="nav-item dashboard">
-                            <span class=" active dashboard">
-                                <div style="text-align: left;" class="nav-link accordion">
-                                    <div class="menu-style w-100 text-left">
-                                        <img src="imagens/nav-consult.webp" width="24" height="24">
-                                        <span class="nav-mobile">Consulta</span>
-                                    </div>
-                                </div>
-                                <div class="panel">
-                                    <ul style="list-style-type: none;">
-                                        <li>
-                                            <a href="" style="color: black;">E-mail</a>
-                                        </li>
-                                        <li>
-                                            <a href="" style="color: black;">WhatsApp</a>
-                                        </li>
-                                        <li>
-                                            <a href="" style="color: black;">Visual Aid</a>
-                                        </li>
-                                        <li>
-                                            <a href="" style="color: black;">Landing Page</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </span>
-                        </li>
-                        <li class="nav-item dashboard">
-                            <span class="active dashboard">
-                                <div style="text-align: left;" class=" nav-link accordion">
-                                    <div class="menu-style w-100 text-left">
-                                        <img src="imagens/nav-config.webp" width="24" height="24">
-                                        <span class="nav-mobile">Configuração</span>
-                                    </div>
-                                </div>
-                                <div class="panel">
-                                    <ul style="list-style-type: none;">
-                                        <li>
-                                            <a href="" style="color: black;">E-mail</a>
-                                        </li>
-                                        <li>
-                                            <a href="" style="color: black;">WhatsApp</a>
-                                        </li>
-                                        <li>
-                                            <a href="" style="color: black;">Visual Aid</a>
-                                        </li>
-                                        <li>
-                                            <a href="" style="color: black;">Landing Page</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </span>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <img src="imagens/nav-sign-out.webp" width="24" height="24">
-                                <span class="nav-mobile">Sair</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+           <?php require_once('includes/side-bar2.php'); ?>
             <!--right-->
-            <div class="dashboard  col-md-10 col-lg-10 col-xxl-10 dashboard-bg2 h-100">
+            <div class="dashboard w3-animate-zoom  col-md-10 col-lg-10 col-xxl-10 dashboard-bg2 h-100">
                 <!--Box 1-->
-                <div class="container dashboard-box mt-3">
+                <div class=" dashboard-box mt-3">
                     <div class=" row dashboard">
-                        <div class="col-sm-3 col-6 d-inline-block">
+                        <div class="col-sm-3 col-6 ps-4 d-inline-block">
                             <h3 class="border-h3">Visual Aid</h3>
                         </div>
                         <div class="col-sm-3 col-6 d-inline-block">
                             <h3 class="border-h3">Landing Page</h3>
                         </div>
-                        <div class="col-sm-3 col-6 d-inline-block">
+                        <div class="col-sm-3 col-6 ps-4 ps-md-3 d-inline-block">
                             <h3 class="border-h3">Email</h3>
                         </div>
                         <div class="col-sm-3 col-6 d-inline-block">
@@ -139,7 +49,7 @@
                     </div>
                 </div>
                 <!--Box 2-->
-                <div class="container dashboard-box2 mt-3 d-flex h-100">
+                <div class=" dashboard-box2 mt-5 d-flex h-100">
                     <div class="col-12 row dashboard align-items-end">
                         <div class="col-6 col-md-1 p-1">
                             Aqui vão os graficos
@@ -192,8 +102,8 @@
                     </div>
                 </div>
                 <!--Box 3-->
-                <div class="container dashboard-box3 mt-3 h-100">
-                    <div class=" row dashboard3">
+                <div class=" dashboard-box3 mt-5 h-100">
+                    <div class="row dashboard3">
                         <div class="col-6 col-md-2 d-inline-block text-center">
                             <h6>Brasil</h6>
                             Aqui vão os numeros
@@ -223,7 +133,7 @@
                     </div>
                 </div>
                 <!--Box 4-->
-                <div class="container dashboard-box4 mt-3 h-100">
+                <div class=" dashboard-box4 mt-5 h-100">
                     <div class=" row dashboard4 pt-3">
                         <div class="col-6 col-md-3 d-inline-block">
                             <div class="pG-box col-12">
@@ -272,27 +182,5 @@
         </div>
     </div>
 </body>
-<script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-        });
-    }
-</script>
-<script src="js/bootstrap.bundle.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/bootstrap.esm.js"></script>
-<script src="js/bootstrap.esm.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/bootstrap.min.js"></script>
 
 </html>

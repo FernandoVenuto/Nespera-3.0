@@ -14,19 +14,24 @@
     <main class="chome">
         <div class="container">
             <div class="row g-0 d-flex justify-content-md-center align-items-center vh-100">
-                <div class="col-7 box text-center">
-                    <div class="col-md-12">
-                        <a href="login.php"><img class="logo-dmie" src="imagens/data_mining_pb_nome_1400_1000.png" alt=""></a>
+                <div class="col-12 col-md-7 box text-center">
+                    <div class="col-md-12 mt-5">
+                        <a href="login.php"><img class="logo-dmie" src="imagens/data_mining_pb_nome_1400_1000.webp" alt=""></a>
                     </div>
                     <div class="row g-0">
                         <div class="col-3 justify-content-md-center">
                         </div>
                         <div class="col-6 justify-content-md-center mt-3">
-                            <h5 style="color: white; font-weight:normal; font-size:18px">Senha cadastrada com sucesso. <img src="imagens/check-circle-regular.webp" alt="" style="width: 20px;"></h5>
+                            <h3 style="color: white;"></h3>
                             <div class="justify-content-lg-center">
-                                <div class="col-3 align-middle mt-2" style="display: inline;">
-                                    <a href="login.php"><button id="logar"><span>Logar </span></button></a>
-                                </div>
+                                <form action="">
+                                    <div class="row g-0">
+                                        <div class="col-12 align-middle mt-2" style="display: inline;">
+                                        <p style="color: white;">Você receberá um e-mail em breve.<br>
+                                            Siga as instruções para gerar uma nova senha.</p>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                         <div class="col-3 justify-content-md-center">
